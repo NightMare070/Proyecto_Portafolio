@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title> Mi Portafolio</title>
+</head>
+<body>
+    <!-- Sección del Menú  -->
+    <div class="tudo">
+    <section class="menu">
+        <header class="menu__header">
+            <img src="assets\vector.png">
+            <h3 class="menu__title">Giovanni Rivera</h3>
+        </header>
+        <nav>
+            <ul class="menu__list">
+                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+                <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
+                <li class="menu__list__item"><a href="#formacion">Formación</a></li>
+                <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
+                <li class="menu__list__item"><a href="#contacto">Contacto@fulana.com</a></li>
+            </ul>
+            <li class="menu__list__item__contato"><a href="#contacto">contacto@fulana.com</a></li>
+        </nav>
+    </section>
+
+    <!-- Sección del Header/Title/Hero -->
+    <section class="title">
+        <div class="title__div">
+            <div class="title__container">
+                <h2 class="title__bio" style="font-size: 2rem;">Hola, mi nombre es Giovanni Rivera y construyo paginas web</h2>
+                <h3 class="title__subsection" style="font-weight: normal;">Soy estudiante en la Universidad Nacional Autónoma de México y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
+                <ul class="title__network">
+                    <!-- Pon los enlaces de tus redes sociales favoritas -->
+                    <li class="title__network__item"><a href="https://github.com/NightMare070" target="_blank">Github <img src="assets\arrow.png"> </a></li>
+                    <li class="title__network__item"><a href="https://www.linkedin.com/in/luis-giovanni-rivera-rojas-5b1643234/" target="_blank">Linkedin <img src="assets\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="#">Currículo <img src="assets\arrow.png"></a></li>
+                </ul>
+            </div>
+            <div class="img__container">
+                <img class="title__profile" src="assets\profile.png">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección sobre mi -->
+    <section class="about" id="sobre-mi">
+        <div class="about__container">
+            <h3 class="about__title">Sobre mi</h3>
+            <p class="about__paragraph">Soy estudiante activo en la Universidad Nacional Autónoma de México en la carrera de Ingeniería en Computación. Apasionado del mundo de la tecnología en el mundo de la programación y el desarrollo web. </p>
+            <p class="about__paragraph">Me gusta el trabajo en equipo, el apoyar a mis compañeros, aprender cosas nuevas y estar en constante cambio y ser autodidacta. </p>
+            <!-- Si quieres, pon tú firma acá! -->
+            <img src="assets\signature.png">
+        </div>
+    </section>
+
+    <!-- Sección de Skills -->
+    <section class="skills" id="skills">
+        <h3 class="skills__title">Skills</h3>
+            <div class="skills__line">
+                <div class="skills__box">
+                    <img src="assets\htlm.png"></li>
+                    <p style="margin-bottom: 5px !important;">HTML 5</p>
+                </div>
+
+                <div class="skills__box">
+                    <img src="assets\js_icon.png" alt="">
+                    <p style="margin-bottom: 5px !important">Javascript</p>
+                </div>
+
+                <div class="skills__box">
+                    <img src="assets\php_icon.png" alt="">
+                    <p style="margin-bottom: 5px !important;">PHP</p>
+                </div>
+
+                <div class="skills__box">
+                    <img src="assets\react_icon.png" alt="">
+                    <p style="margin-bottom: 5px !important;">React</p>
+                </div>
+
+                <div class="skills__box">
+                    <img src="assets\css_icon.png" alt="">
+                    <p style="margin-bottom: 5px !important;">CSS</p>
+                </div>
+        </div>
+    </section>
+
+    <!-- Sección de Hobbies -->
+    <section class="hobbies" id="hobbies">
+        <h3 class="hobbies__title">Hobbies</h3>
+            <div class="hobbies__line">
+                <div class="hobbies__box">
+                    <img src="assets\headphones_icon.png" alt="">
+                    <p style="margin-bottom: 5px !important;">Oir música</p>
+                </div>
+
+                <div class="hobbies__box">
+                    <img src="assets\tv_icon.png" alt="">
+                    <p style="margin-bottom: 5px !important;">Ver series</p>
+                </div>
+
+                <div class="hobbies__box">
+                    <img src="assets\forkspoon_icon.png" alt="">
+                    <p style="margin-bottom: 5px !important;">Cocinar</p>
+                </div>
+        </div>
+    </section>
+
+        <!-- Sección de Formación académica -->
+    <section class="academic" id="formacion">
+        <h2 class="academic__title" >Formación académica</h2>
+        <div class="academic__courses">
+            <div class="academic__courses__box">
+                <div class="color-div" style="padding-top: 5%;">
+                    <img src="assets\unam_logo.png">
+                </div>
+                <h4>Ingeniería en Computación</h4>
+                <p>2020 - En curso</p>
+            </div>
+            <div class="academic__courses__box" style="padding-top: 2%; padding-bottom: 3%;">
+                <div class="color-div">
+                    <img src="assets\alura_logo.png">
+                </div>
+                <h4>Formación en Desarrollo Web</h4>
+                <p>2023 - En curso</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Experiencia Profesional/Proyectos-->
+    <section class="experience" id="xp">
+        <h2 class="experience__section__title" >Experiencia Profesional</h2>
+        <div class="experience__box">
+            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+            <div class="experience__img">
+                <img class="experience__img" src="assets\secretcode_print.png">
+            </div>
+            <div class="experience__info-container">
+                <h2 class="experience__title">Encriptador de texto</h2>
+                <h3 class="experience__text">Challenge Oracle </h3>
+                    <div class="experience__description">
+                            <span class="experience__repo"><a href="https://github.com/NightMare070/Proyecto_EncriptadorDesencriptador" target="_blank"><button class="experiencia__botao--repo">Repositorio</button></a></span>
+                            <span class="experience__demo"><a href="https://nightmare070.github.io/Proyecto_EncriptadorDesencriptador/" target="_blank"><button class="experience__botao--demo">Ver demo</button></a></span>
+                    </div>
+            </div>
+        </div>  
+        </div>  
+
+        <!-- Sección de Contacto -->
+        <section class="formcontato" id="contacto">
+            <div  class="formcontato__contacto">
+                <div class="formcontato--esquerda">
+                    <img class="formcontato__img" src="assets\contact_image.png">
+                </div>
+                <div class="formcontato__text">
+                    <h2 class="formcontato__title">Contacto</h2>
+                    <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
+                    <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
+                    <form class="formcontato__form" name="form">
+                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
+                        <br>
+                        <br>
+                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
+                        <br>
+                        <br>
+                        <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto">
+                        <br>
+                        <br>
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                        <br>
+                        <br>
+                        <button type="submit" class="formcontato__botao" style="margin-left: 40%;">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Footer -->
+        <section class="footer">
+            <div class="footer__rodape">
+                <p>Desarrollado por NightMare070</p>
+                <p>2022</p>
+            </div>
+        </section>
+    </div>
+ <!-- Script del documento JavaScript -->
+<script src="validacion.js"></script>
+</body>
+</html>
